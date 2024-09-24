@@ -1,0 +1,59 @@
+
+Type Conversions:
+
+String to int, float, list, tuple, set, Boolean
+
+int to String, float, Boolean 
+
+float to int, string, Boolean
+
+Collection Type Datatypes:
+set to List, tuple, string (Set is immutable because no indexing and itself it is mutable)
+
+List to set, tuple, String
+
+Tuple to list, string, set 
+
+Dict to list of keys, list of values, list of tuples 
+_____________________________________________________
+What data types will allow inside it ?
+
+String can contain Every data type
+	ex: my_string = "1, [1, 2, 3], (1, 2, 3), {'key': 'value'}, 3.14, True"
+
+List can contain Every data type inside it.
+
+Tuple can contain int, float, list, bool, Dict, tuples, set
+
+
+Set can contain int, float, String, Tuples, Bool, Frozen sets.		
+	it does not allow mutable datatypes inside it.
+	Sets inside a set not allowed.
+
+Dict: key must be immutable type like String, Number and tuple and 
+	 values can be any data type.
+_____________________________________________________________
+
+OOps:
+
+__init__: is a special method in a python known as constructor, it is called automatically
+	  when object of the class is created.
+	It is used to initialize the attributes of the class both static and Dynamic.
+	Ex: 
+	
++------------------+
+|     Car          |
+|  (Class)         |
+|                  |
+|  - (static vars) |
++------------------+
+         |
+         | creates an instance
+         v
++------------------+
+|    my_car        |
+|  (Object)        |
+|                  |
+|  make: "Toyota"  |
+|  model: "Corolla"|
++------------------+
